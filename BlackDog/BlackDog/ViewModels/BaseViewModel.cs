@@ -13,6 +13,7 @@ namespace BlackDog.ViewModels
         public BaseViewModel()
         {
            // Icon = Helpers.StringHelper.FixPathImage("slideout.png");
+
         }
 
         public static bool IsRetrato(double width, double height)
