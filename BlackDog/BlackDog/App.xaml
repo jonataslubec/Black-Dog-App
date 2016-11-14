@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlackDog.App">
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <!--<Color x:Key="Primary">#03A9F4</Color>
+      <Color x:Key="PrimaryDark">#1976D2</Color>-->
+
+      <!--Indigo-->
+      <Color x:Key="Primary">#3F51B5</Color>
+      <Color x:Key="PrimaryDark">#303F9F</Color>
+      <Color x:Key="AccentColor">#FF4081</Color>
+      <Color x:Key="PrimaryText">#212121</Color>
+      <Color x:Key="LightPrimaryColor">#C5CAE9</Color>
+      <Color x:Key="SecondaryText">#757575</Color>
+      <Color x:Key="DividerColor">#BDBDBD</Color>
+      <Color x:Key="TextIcons">#FFFFFF</Color>
+      <Color x:Key="BlackColor">#000000</Color>
+
+      <!---Glossy Styles Escuro-->
+      <Color x:Key="CardBackgroundColor">#77000000</Color>
+      <Color x:Key="MessageBoxBackgroundColor">#99212331</Color>
+      <Color x:Key="LoginColor">#1565C0</Color>
+
+      <Color x:Key="NameColor">#FFFFFF</Color>
+      <Color x:Key="DepartmentColor">#b0bec5</Color>
+      <Color x:Key="LocationColor">#40c4ff</Color>
+      <Color x:Key="MoreIconColor">#1de9b6</Color>
+      <Color x:Key="SocialColor">#40c4ff</Color>
+      <Color x:Key="MessageColor">White</Color>
+      <Color x:Key="DataColor">#3498DB</Color>
+
+      <!--Azul-->
+      <!--<Color x:Key="CardBackgroundColor">#1565C0</Color>
+      <Color x:Key="MessageBoxBackgroundColor">#2196F3</Color>
+
+      <Color x:Key="NameColor">#E3F2FD</Color>
+      <Color x:Key="DepartmentColor">#90CAF9</Color>
+      <Color x:Key="LocationColor">#E3F2FD</Color>
+      <Color x:Key="MoreIconColor">#E3F2FD</Color>
+      <Color x:Key="SocialColor">#E3F2FD</Color>
+      <Color x:Key="MessageColor">#E3F2FD</Color>-->
+
+      <!--Roxo-->
+      <!--<Color x:Key="CardBackgroundColor">#283593</Color>
+          <Color x:Key="MessageBoxBackgroundColor">#3F51B5</Color>
+           <Color x:Key="NameColor">#E3F2FD</Color>
+          <Color x:Key="DepartmentColor">#90CAF9</Color>
+          <Color x:Key="LocationColor">#E3F2FD</Color>
+          <Color x:Key="MoreIconColor">#1de9b6</Color>
+          <Color x:Key="SocialColor">#E3F2FD</Color>
+          <Color x:Key="MessageColor">White</Color>-->
+
+
+
+      <!-- Formal Style Claro-->
+      <!--<Color x:Key="CardBackgroundColor">#eceff1</Color>
+			    <Color x:Key="MessageBoxBackgroundColor">#cfd8dc</Color>
+		
+			    <Color x:Key="NameColor">#546e7a</Color>
+			    <Color x:Key="DepartmentColor">#90a4ae</Color>
+			    <Color x:Key="LocationColor">#03a9f4</Color>
+			    <Color x:Key="MoreIconColor">#43a047</Color>
+			    <Color x:Key="SocialColor">#03a9f4</Color>
+			    <Color x:Key="MessageColor">#546e7a</Color>-->
+
+
+
+      <Color x:Key="EntryBackgroundColor">#7778909c</Color>
+
+      <Style TargetType="Button">
+        <Setter Property="BorderRadius" Value="20"/>
+      </Style>
+
+      <Style TargetType="Entry">
+        <!--<Setter Property="BackgroundColor" Value="#33ffffff"/>-->
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+      <Style x:Key="CardStyle" TargetType="Grid">
+        <Setter Property="HeightRequest" Value="80"/>
+        <Setter Property="Padding" Value="5,10,0,10"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource CardBackgroundColor}"/>
+      </Style>
+
+      <Style x:Key="MessageBox" TargetType="Grid">
+        <Setter Property="HeightRequest" Value="25"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource MessageBoxBackgroundColor}"/>
+      </Style>
+
+      <Style x:Key="ShadowStyle" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1"/>
+        <Setter Property="BackgroundColor" Value="Black"/>
+      </Style>
+
+
+      <Style x:Key="NameStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="{DynamicResource TextIcons}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+      </Style>
+
+      <Style x:Key="DataStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="TextColor" Value="{DynamicResource DataColor}"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+      </Style>
+
+      <Style x:Key="TempoLeituraStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="10"/>
+        <Setter Property="TextColor" Value="{DynamicResource MoreIconColor}"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+      </Style>
+
+
+      <Style x:Key="MenuStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{DynamicResource BlackColor}"/>
+        <Setter Property="Margin" Value="15,3,0,0"/>
+      </Style>
+
+      <Style x:Key="MenuStyleFull" TargetType="Label">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{DynamicResource BlackColor}"/>
+        <Setter Property="Margin" Value="30,3,0,0"/>
+      </Style>
+
+
+      <Style x:Key="MenuFundoStyle" TargetType="Grid">
+        <Setter Property="Padding" Value="-10,15,0,15"/>
+        <Setter Property="BackgroundColor" Value="#00FFAA"/>
+      </Style>
+
+
+      <Style x:Key="LogoTitleStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="#FFFFFF"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+      </Style>
+
+      <Style x:Key="LogoSubTitleStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="#FFFFFF"/>
+        <Setter Property="Margin" Value="0,20,0,0"/>
+
+      </Style>
+
+      <Style x:Key="DepartmentStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{DynamicResource DepartmentColor}"/>
+      </Style>
+
+      <Style x:Key="LocationStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="9"/>
+        <Setter Property="TextColor" Value="{DynamicResource LocationColor}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+      </Style>
+
+      <Style x:Key="MoreStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="10"/>
+        <Setter Property="TextColor" Value="{DynamicResource MoreIconColor}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="HorizontalTextAlignment" Value="End"/>
+      </Style>
+
+      <Style x:Key="SocialStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="10"/>
+        <Setter Property="TextColor" Value="{DynamicResource SocialColor}"/>
+      </Style>
+
+      <Style x:Key="MessageLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource MessageColor}"/>
+        <Setter Property="FontSize" Value="8"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+      </Style>
+
+      <Style x:Key="MessageEntryStyle" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+      </Style>
+
+    </ResourceDictionary>
+  </Application.Resources>
+
+</Application>

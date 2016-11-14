@@ -1,0 +1,224 @@
+﻿{
+  "MenuTemplate.xaml": {
+    "Title": "Habilitar/desabilitar",
+    "Icon": "twitter.png"
+  },
+  "MenuTemplateFull.xaml": {
+    "Title": "Habilitar/desabilitar",
+    "Icon": "twitter.png"
+  },
+  "MenuPage.xaml": [
+    {
+      "Title": "Sobre",
+      "Icon": "ic_information.png"
+    },
+    {
+      "Title": "Blog Elemar Jr.",
+      "Icon": "ic_blogger.png"
+    },
+    {
+      "Title": "Twitter Elemar Jr.",
+      "Icon": "ic_twitter.png"
+    },
+    {
+      "Title": "Gráfico Pizza",
+      "Icon": "ic_chart_pie.png"
+    },
+    {
+      "Title": "Gráfico Barras",
+      "Icon": "ic_chart_gantt.png"
+    },
+    {
+      "Title": "Gráfico Área",
+      "Icon": "ic_chart_areaspline.png"
+    },
+    {
+      "Title": "Gráfico Coluna",
+      "Icon": "ic_chart_bar.png"
+    },
+    {
+      "Title": "Gráfico Linha",
+      "Icon": "ic_chart_line.png"
+    },
+    {
+      "Title": "Gráficos Vendas",
+      "Icon": "ic_chart_bar.png"
+    },
+    {
+      "Title": "Câmeras",
+      "Icon": "ic_camera.png"
+    },
+    {
+      "Title": "Carousel",
+      "Icon": "ic_camera.png"
+    },
+    {
+      "Title": "Logout",
+      "Icon": "ic_logout.png"
+    }
+
+  ],
+
+  "CameraTemplate.xaml": {
+    "Descricao": "Camera cozinha",
+    "Url": "192.168.0.198:8080/stream/getvideo"
+  },
+
+  "Index.xaml": [
+    {
+      "Descricao": "Camera cozinha",
+      "Url": "192.168.0.198:8080/stream/getvideo"
+    },
+    {
+      "Descricao": "Camera Quarto",
+      "Url": "192.168.0.198:8080/stream/getvideo"
+    },
+    {
+      "Descricao": "Camera Next",
+      "Url": "192.168.0.198:8080/stream/getvideo"
+    },
+   
+    {
+      "Descricao": "Camera Loja 1",
+      "Url": "192.168.0.198:8080/stream/getvideo"
+    }
+  ],
+
+  "CameraTemplateIcons.xaml": {
+    "Description": "Camera cozinha",
+    "Link": "192.168.0.198:8080/stream/getvideo"
+  },
+
+  "BlogTemplate.xaml": {
+    "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+    "PublishDate": "quinta-feira, 15 de setembro de 2016",
+    "Caption": "I am Jonatas Cunha, I am developer.",
+    "TempoLeitura": "Tempo de Leitura 2 minutos",
+    "FirstImage": "jennifer.jpg"
+  },
+
+  "BlogPage.xaml": [
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "PublishDate": "quinta-feira, 15 de setembro de 2016",
+      "Caption": "I am Jonatas Cunha, I am developer.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos",
+      "FirstImage": "jennifer.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)s",
+      "PublishDate": "quinta-feira, 15 de setembro de 20162",
+      "Caption": "I am Jonatas Cunha, I am developer2.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos2",
+      "FirstImage": "Jojo.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "PublishDate": "quinta-feira, 15 de setembro de 2016",
+      "Caption": "I am Jonatas Cunha, I am developer.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos",
+      "FirstImage": "jennifer.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)s",
+      "PublishDate": "quinta-feira, 15 de setembro de 20162",
+      "Caption": "I am Jonatas Cunha, I am developer2.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos2",
+      "FirstImage": "Jojo.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "PublishDate": "quinta-feira, 15 de setembro de 2016",
+      "Caption": "I am Jonatas Cunha, I am developer.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos",
+      "FirstImage": "jennifer.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)s",
+      "PublishDate": "quinta-feira, 15 de setembro de 20162",
+      "Caption": "I am Jonatas Cunha, I am developer2.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos2",
+      "FirstImage": "Jojo.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "PublishDate": "quinta-feira, 15 de setembro de 2016",
+      "Caption": "I am Jonatas Cunha, I am developer.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos",
+      "FirstImage": "jennifer.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)s",
+      "PublishDate": "quinta-feira, 15 de setembro de 20162",
+      "Caption": "I am Jonatas Cunha, I am developer2.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos2",
+      "FirstImage": "Jojo.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "PublishDate": "quinta-feira, 15 de setembro de 2016",
+      "Caption": "I am Jonatas Cunha, I am developer.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos",
+      "FirstImage": "jennifer.jpg"
+    },
+    {
+      "Title": "Garantindo quer recursos sejam liberados (em Java e C#)s",
+      "PublishDate": "quinta-feira, 15 de setembro de 20162",
+      "Caption": "I am Jonatas Cunha, I am developer2.",
+      "TempoLeitura": "Tempo de Leitura 2 minutos2",
+      "FirstImage": "Jojo.jpg"
+    }
+  ],
+
+
+
+
+  "TwitterTemplate.xaml": {
+    "Text": "Garantindo quer recursos sejam liberados (em Java e C#)",
+    "Date": "quinta-feira, 15 de setembro de 2016",
+    "Image": "jennifer.jpg"
+  },
+
+
+  "TwitterPage.xaml": [
+    {
+      "Text": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "Date": "quinta-feira, 15 de setembro de 2016",
+      "Image": "jennifer.jpg"
+    },
+    {
+      "Text": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "Date": "quinta-feira, 15 de setembro de 2016",
+      "Image": "jennifer.jpg"
+    },
+    {
+      "Text": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "Date": "quinta-feira, 15 de setembro de 2016",
+      "Image": "jennifer.jpg"
+    },
+    {
+      "Text": "Garantindo quer recursos sejam liberados (em Java e C#)",
+      "Date": "quinta-feira, 15 de setembro de 2016",
+      "Image": "jennifer.jpg"
+    }
+  ],
+
+
+
+  "BlogTemplateBig.xaml": {
+    "Title": "John Silverstain",
+    "PublishDate": 29,
+    "Caption": "I am Jonatas Cunha, I am developer.",
+    "FirstImage": "jennifer.jpg",
+    "TempoLeitura": "Tempo de Leitura 2 minutos",
+    "Followers": 2234
+  },
+
+  "BlogTemplateClaro.xaml": {
+    "Title": "John Silverstain",
+    "PublishDate": 29,
+    "Caption": "I am Jonatas Cunha, I am developer.",
+    "TempoLeitura": "Tempo de Leitura 2 minutos",
+    "FirstImage": "jennifer.jpg"
+  }
+}

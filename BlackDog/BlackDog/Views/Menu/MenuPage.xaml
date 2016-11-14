@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BlackDog.Views.Menu.Template;assembly=BlackDog"
+             x:Class="BlackDog.Views.Menu.MenuPage"
+             Title="Black Dog"
+             Icon="slideout.png"
+            BackgroundColor="White">
+  <ContentPage.Content>
+    <ListView
+           CachingStrategy="RecycleElement"
+           SeparatorColor="Transparent"
+           HasUnevenRows="True"
+           ItemsSource="{Binding .}"
+           x:Name="ListViewMenu">
+      <ListView.Header>
+        <Grid BackgroundColor="White" >
+
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+
+          <StackLayout
+            Orientation="Vertical"
+            Grid.Column="1"
+            Grid.Row="0"
+            HorizontalOptions="Start"
+            VerticalOptions="End"
+            Padding="20,0,0,0">
+
+            <Image Source="black_dog_logo.png"
+                 Grid.Column="0"
+                 Grid.Row="0"
+                 WidthRequest="100"
+                 HeightRequest="100"/>
+
+          </StackLayout>    
+
+        </Grid>
+      </ListView.Header>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <local:MenuTemplate />
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ContentPage.Content>
+</ContentPage>

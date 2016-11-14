@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlackDog.Views.Cliente.ClientePage">
+
+  <TabbedPage.Children>BlackDog.Views.Cliente
+
+    <ContentPage BackgroundColor="Gray" Title="Pagina 1" x:Name="aba1" >
+      <ContentPage.Content >
+        <Label Text="Pagina 1"></Label>
+      </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Gray" Title="Pagina 2"  x:Name="aba2">
+      <ContentPage.Content >
+        <Label Text="Pagina 2"></Label>
+      </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage  BackgroundColor="Gray" Title="Pagina 3" x:Name="aba3">
+      <ContentPage.Content >
+        <Label Text="Pagina 3"></Label>
+      </ContentPage.Content>
+    </ContentPage>
+
+  </TabbedPage.Children>
+</TabbedPage>
